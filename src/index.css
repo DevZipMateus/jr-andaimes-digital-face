@@ -139,7 +139,7 @@ All colors MUST be HSL.
 @layer components {
   /* Hero button variant */
   .btn-hero {
-    @apply bg-white/10 text-white border border-white/40 hover:bg-accent hover:text-accent-foreground hover:border-accent backdrop-blur-sm transition-all duration-300;
+    @apply bg-white/20 text-white border border-white/60 hover:bg-white hover:text-secondary hover:border-white backdrop-blur-sm transition-all duration-300 font-medium;
   }
 
   /* Primary button with proper contrast */
