@@ -1,4 +1,5 @@
 import { Building2, Users, Trophy, Calendar } from "lucide-react";
+import { EquipmentCarousel } from "./EquipmentCarousel";
 
 const About = () => {
   const stats = [
@@ -98,6 +99,20 @@ const About = () => {
               );
             })}
           </div>
+        </div>
+        
+        {/* Equipment Gallery */}
+        <div className="mt-16">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold text-foreground mb-4">
+              Nossos equipamentos
+            </h3>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Conheça nossa ampla gama de equipamentos profissionais para construção civil, 
+              sempre mantidos em perfeito estado e prontos para uso.
+            </p>
+          </div>
+          <EquipmentCarousel />
         </div>
       </div>
     </section>
