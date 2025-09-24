@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Clock, Award } from "lucide-react";
-
 const Hero = () => {
   const scrollToContact = () => {
     const element = document.querySelector("#contato") as HTMLElement;
@@ -13,7 +12,6 @@ const Hero = () => {
       });
     }
   };
-
   const scrollToServices = () => {
     const element = document.querySelector("#servicos") as HTMLElement;
     if (element) {
@@ -25,9 +23,7 @@ const Hero = () => {
       });
     }
   };
-
-  return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with gradient */}
       <div className="absolute inset-0 bg-gradient-hero"></div>
       <div className="absolute inset-0 bg-gradient-overlay"></div>
@@ -52,20 +48,11 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button 
-              onClick={scrollToContact}
-              size="lg"
-              className="btn-hero group"
-            >
+            <Button onClick={scrollToContact} size="lg" className="btn-hero group">
               Solicitar orçamento
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button 
-              onClick={scrollToServices}
-              variant="outline"
-              size="lg"
-              className="btn-outline-light"
-            >
+            <Button onClick={scrollToServices} variant="outline" size="lg" className="btn-outline-light text-zinc-950">
               Nossos serviços
             </Button>
           </div>
@@ -98,8 +85,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
