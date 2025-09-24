@@ -218,7 +218,7 @@ const Contact = () => {
                 <Button 
                   asChild
                   size="lg"
-                  className="btn-hero"
+                  className="btn-outline-light"
                 >
                   <a href="https://wa.me/5527998630556" target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="h-5 w-5 mr-2" />
@@ -229,7 +229,7 @@ const Contact = () => {
                   asChild
                   variant="outline"
                   size="lg"
-                  className="btn-hero"
+                  className="btn-outline-light"
                 >
                   <a href="tel:+5527998630556">
                     <Phone className="h-5 w-5 mr-2" />

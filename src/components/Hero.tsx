@@ -64,7 +64,7 @@ const Hero = () => {
               onClick={scrollToServices}
               variant="outline"
               size="lg"
-              className="btn-hero"
+              className="btn-outline-light"
             >
               Nossos serviços
             </Button>
