@@ -76,7 +76,7 @@ const About = () => {
                   <img 
                     src="/lovable-uploads/fd687728-b915-4087-82ba-99dbd7085935.png" 
                     alt="J&R ANDAIMES - Empresa especializada em andaimes" 
-                    className="max-w-[200px] h-auto"
+                    className="max-w-[350px] h-auto"
                   />
                 </div>
               </div>
